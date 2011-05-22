@@ -12,7 +12,7 @@ gem 'sass'
 gem 'formtastic'
 gem 'fastercsv'
 gem 'uuidtools'
-gem 'surveyor', :git => 'git://github.com/NUBIC/surveyor.git', :branch => 'rails3'	
+gem 'surveyor', :git => 'git://github.com/gorenje/surveyor.git', :branch => 'rails3'	
 
 # Use unicorn as the web server
 # gem 'unicorn'

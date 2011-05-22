@@ -1,12 +1,13 @@
 GIT
-  remote: git://github.com/NUBIC/surveyor.git
-  revision: 1f0c476f951d06c3d06d1cec9ab1e358044ff2a2
+  remote: git://github.com/gorenje/surveyor.git
+  revision: c890e244f2456312491c673a490c5637b1243242
   branch: rails3
   specs:
-    surveyor (0.16.1)
+    surveyor (0.16.10)
       fastercsv
       formtastic
       haml
+      uuid
 
 GEM
   remote: http://rubygems.org/
@@ -49,6 +50,7 @@ GEM
       i18n (~> 0.4)
     haml (3.1.1)
     i18n (0.5.0)
+    macaddr (1.0.0)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -81,6 +83,8 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.27)
+    uuid (2.3.2)
+      macaddr (~> 1.0)
     uuidtools (2.1.2)
 
 PLATFORMS
